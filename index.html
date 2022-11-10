@@ -1,15 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <script src=" script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Övning-Trummaskin och synth</title>
+    
 </head>
+
 <body>
-    <audio id="myAudio">
-        <source src="sounds/trummor_warm.wav" type="audio/wav"">
-      </audio>
-   
-    <script src="script.js"></script>
+    
+    <main>
+        
+        <div class="drumContainer">
+            
+            <div id="drumDiv1">
+                <audio id="myAudio1">
+                    <source src="sounds/trummor_stick.wav" type="audio/wav">
+                </audio>
+            </div>
+            
+            <div id="drumDiv2">
+                <audio id="myAudio2">
+                    <source src="sounds/trummor_snare.wav" type="audio/wav">
+                </audio>
+            </div> 
+            
+            <div id="drumDiv3">
+                <audio id="myAudio3">
+                    <source src="sounds/trummor_rim.wav" type="audio/wav">
+                </audio>
+            </div>
+            
+            <div id="drumDiv4" >
+                <audio id="myAudio4">
+                    <source src="sounds/trummor_openhihats.wav" type="audio/wav">
+                </audio>
+            </div>    
+            
+            <div id="drumDiv5">
+                <audio id="myAudio5">
+                    <source src="sounds/trummor_kick.wav" type="audio/wav">
+                </audio>
+            </div>
+            
+            <div id="drumDiv6">
+                <audio id="myAudio6">
+                    <source src="sounds/trummor_hihats.wav" type="audio/wav">
+                </audio>
+            </div>
+            
+            <div id="drumDiv7">
+                <audio id="myAudio7">
+                    <source src="sounds/trummor_cowbell.wav" type="audio/wav">
+                </audio>
+            </div>
+            
+            <div id="drumDiv8">
+                <audio id="myAudio8">
+                    <source src="sounds/trummor_clap.wav" type="audio/wav">
+                </audio>
+            </div>
+            
+            <div id="drumDiv9" >
+                <audio id="myAudio9">
+                    <source src="sounds/trummor_warm.wav" type="audio/wav">
+                </audio>
+            </div>
+        
+        </div>
+        
+        
+        <div class="synthContainer">
+
+            <div id="synthDivZ">
+                <audio id="myAudioZ">
+                    <source src="sounds/synth_a_note.wav" type="audio/wav">
+                </audio>
+            </div>
+            <div id="synthDivX">
+                <audio id="myAudioX">
+                    <source src="sounds/synth_b_note.wav" type="audio/wav">
+                </audio>
+            </div>
+            <div id="synthDivC">
+                <audio id="myAudioC">
+                    <source src="sounds/synth_c_note.wav" type="audio/wav">
+                </audio>
+            </div>
+            <div id="synthDivV">
+                <audio id="myAudioV">
+                    <source src="sounds/synth_d_note.wav" type="audio/wav">
+                </audio>
+            </div>
+            <div id="synthDivB">
+                <audio id="myAudioB">
+                    <source src="sounds/synth_e_note.wav" type="audio/wav">
+                </audio>
+            </div>
+            <div id="synthDivN">
+                <audio id="myAudioN">
+                    <source src="sounds/synth_f_note.wav" type="audio/wav">
+                </audio>
+            </div>
+            <div id="synthDivM">
+                <audio id="myAudioM">
+                    <source src="sounds/synth_g_note.wav" type="audio/wav">
+                </audio>
+            </div>
+
+
+        </div>
+    </main>
 </body>
+
 </html>
